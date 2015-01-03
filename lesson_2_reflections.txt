@@ -14,3 +14,46 @@ added or removed, whereas a repository is
 a collection of all commits. It allows a user
 to make changes before actually going forward
 with a commit
+
+Q: How can you use the staging area to make 
+sure you have one commit per logical change?
+
+You can compare the file in the staging area
+to the latest commit
+
+Q: What are some situations when branches would 
+be helpful in keeping your history organized? 
+How would branches help?
+
+When you want to work on new experimental 
+features of a program. That way you can
+have two branches that divide a working
+program, and your program with experimental
+features that might not be working up to
+par just yet
+
+Q: How do the diagrams help you visualize the 
+branch structure?
+
+It allows you to see the organization of the
+branch structure
+
+
+Q: What is the result of merging two branches 
+together? Why do we represent it in the diagram 
+the way we do?
+
+The code from the two branches is merged 
+together. It is represented that way since
+the tip of the merged branches now inherits
+from the parents that were part of the previous
+branches
+
+
+Q: What are the pros and cons of Git’s automatic 
+merging vs. always doing merges manually?
+
+Automatic merging is easier and more convienent.
+However the main drawback is that there could be
+conflicts that must be resolved manually that
+cant be resolved automatically.
